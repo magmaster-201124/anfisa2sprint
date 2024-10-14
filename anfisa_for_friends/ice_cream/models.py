@@ -52,7 +52,7 @@ class IceCream(PublishedModel):
         related_name='ice_cream',
         verbose_name='Обёртка',
         null=True,
-        blank=True,
+        blank=True
     )
     category = models.ForeignKey(
         Category,
